@@ -1,0 +1,28 @@
+{
+  "name": "CHEESE Blockchain",
+  "chain": "CHEESE",
+  "rpc": [
+    "https://cheesescan.com/rpc",
+    "https://rpc1.cheesescan.com",
+    "https://rpc2.cheesescan.com"
+  ],
+  "faucets": ["https://cheesescan.com/faucet"],
+  "nativeCurrency": {
+    "name": "CHEESE",
+    "symbol": "CHEESE",
+    "decimals": 18
+  },
+  "infoURL": "https://cheesescan.com",
+  "shortName": "cheese",
+  "chainId": 69420,
+  "networkId": 69420,
+  "redFlags": ["reusedChainId"],
+  "status": "incubating",
+  "explorers": [
+    {
+      "name": "CHEESE Explorer",
+      "url": "https://cheesescan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

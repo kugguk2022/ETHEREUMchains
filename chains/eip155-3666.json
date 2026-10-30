@@ -1,0 +1,23 @@
+{
+  "name": "Jouleverse",
+  "chain": "J",
+  "rpc": ["https://rpc.jnsdao.com"],
+  "faucets": ["https://faucet.jnsdao.com"],
+  "nativeCurrency": {
+    "name": "Joule",
+    "symbol": "J",
+    "decimals": 18
+  },
+  "infoURL": "https://jouleverse.com",
+  "shortName": "jouleverse",
+  "chainId": 3666,
+  "networkId": 3666,
+  "icon": "jouleverse",
+  "explorers": [
+    {
+      "name": "jscan",
+      "url": "https://jscan.jnsdao.com",
+      "standard": "EIP3091"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Kintsugi",
+  "title": "Kintsugi merge testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc.kintsugi.themerge.dev"],
+  "faucets": ["https://faucet.kintsugi.themerge.dev"],
+  "nativeCurrency": {
+    "name": "kintsugi Ethere",
+    "symbol": "kiETH",
+    "decimals": 18
+  },
+  "infoURL": "https://kintsugi.themerge.dev/",
+  "shortName": "kintsugi",
+  "chainId": 1337702,
+  "networkId": 1337702,
+  "explorers": []
+}
