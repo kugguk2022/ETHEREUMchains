@@ -237,6 +237,10 @@
     "url": "https://optimism.blockscout.com",
     "icon": "blockscout",
     "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/opti",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Metadium Mainnet",
@@ -1166,6 +1170,10 @@
     "name": "bscscan",
     "url": "https://bscscan.com",
     "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/bnb",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Syscoin Mainnet",
@@ -2053,7 +2061,7 @@
   "name": "Gnosis",
   "chain": "GNO",
   "icon": "gnosis",
-  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis-rpc.publicnode.com", "wss://gnosis-rpc.publicnode.com", "https://gnosis-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://rpc.gnosischain.com", "https://rpc.gnosis.gateway.fm", "https://rpc.ankr.com/gnosis", "https://gnosis-mainnet.public.blastapi.io", "https://gnosis.api.onfinality.io/public", "https://gnosis.blockpi.network/v1/rpc/public", "https://gnosis.oat.farm", "wss://rpc.gnosischain.com/wss", "https://gnosis-rpc.publicnode.com", "wss://gnosis-rpc.publicnode.com", "https://gnosis-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/gnosis?key=${SWIFTNODES_API_KEY}"],
   "faucets": ["https://faucet.gnosischain.com", "https://stakely.io/faucet/gnosis-chain-xdai", "https://faucet.prussia.dev/xdai"],
   "nativeCurrency": {
     "name": "xDAI",
@@ -2233,7 +2241,7 @@
   "name": "Shibarium",
   "chain": "Shibarium",
   "icon": "shibarium",
-  "rpc": ["https://rpc.shibarium.shib.io", "https://shib.nownodes.io"],
+  "rpc": ["https://rpc.shibarium.shib.io", "https://shib.nownodes.io", "https://rpc.swiftnodes.io/rpc/shibarium?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BONE Shibarium",
@@ -2493,7 +2501,7 @@
 }, {
   "name": "Fuse Mainnet",
   "chain": "FUSE",
-  "rpc": ["https://rpc.fuse.io", "https://fuse.drpc.org", "wss://fuse.drpc.org"],
+  "rpc": ["https://rpc.fuse.io", "https://fuse.drpc.org", "wss://fuse.drpc.org", "https://rpc.swiftnodes.io/rpc/fuse?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Fuse",
@@ -2640,7 +2648,7 @@
 }, {
   "name": "Unichain",
   "chain": "ETH",
-  "rpc": ["https://mainnet.unichain.org", "https://unichain-rpc.publicnode.com", "wss://unichain-rpc.publicnode.com", "https://unichain-rpc.blockreq.com/v1/rpc/public"],
+  "rpc": ["https://mainnet.unichain.org", "https://unichain-rpc.publicnode.com", "wss://unichain-rpc.publicnode.com", "https://unichain-rpc.blockreq.com/v1/rpc/public", "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -2809,6 +2817,10 @@
   }, {
     "name": "oklink",
     "url": "https://www.oklink.com/polygon",
+    "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/polygon",
     "standard": "EIP3091"
   }]
 }, {
@@ -11605,7 +11617,7 @@
 }, {
   "name": "Phase Mainnet",
   "chain": "PHASE",
-  "rpc": [],
+  "rpc": ["https://rpc-main.phase.xyz", "wss://rpc-main.phase.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "PHASE",
@@ -11621,7 +11633,11 @@
   "shortName": "phase",
   "chainId": 1015,
   "networkId": 1015,
-  "status": "incubating"
+  "explorers": [{
+    "name": "Phase Explorer",
+    "url": "https://explorer.phase.xyz",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "MAI Chain Mainnet",
   "chain": "MAI",
@@ -11864,20 +11880,20 @@
   "name": "Bighive Mainnet",
   "chain": "BIGHIVE",
   "icon": "bighive",
-  "rpc": ["https://rpc.bighive-beets.io/osc"],
+  "rpc": ["https://rpc.bighive-beets.com/osc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Beets",
     "symbol": "BEETS",
     "decimals": 18
   },
-  "infoURL": "https://bighive-beets.io",
+  "infoURL": "https://bighive-beets.com",
   "shortName": "bighive",
   "chainId": 1062,
   "networkId": 1062,
   "explorers": [{
     "name": "BDBS",
-    "url": "https://bdbs.bighive-beets.io",
+    "url": "https://bdbs.bighive-beets.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -12017,7 +12033,7 @@
 }, {
   "name": "Metis Andromeda Mainnet",
   "chain": "ETH",
-  "rpc": ["https://andromeda.metis.io/?owner=1088", "https://metis.drpc.org", "wss://metis.drpc.org", "https://metis-rpc.publicnode.com", "wss://metis-rpc.publicnode.com"],
+  "rpc": ["https://andromeda.metis.io/?owner=1088", "https://metis.drpc.org", "wss://metis.drpc.org", "https://metis-rpc.publicnode.com", "wss://metis-rpc.publicnode.com", "https://rpc.swiftnodes.io/rpc/metis?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Metis",
@@ -12220,7 +12236,7 @@
 }, {
   "name": "WEMIX3.0 Mainnet",
   "chain": "WEMIX",
-  "rpc": ["https://api.wemix.com", "wss://ws.wemix.com"],
+  "rpc": ["https://api.wemix.com", "wss://ws.wemix.com", "https://rpc.swiftnodes.io/rpc/wemix?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "WEMIX",
@@ -12335,7 +12351,7 @@
   "name": "Core Blockchain Mainnet",
   "chain": "Core",
   "icon": "core",
-  "rpc": ["https://rpc.coredao.org/", "https://rpc-core.icecreamswap.com", "https://core.drpc.org", "wss://core.drpc.org"],
+  "rpc": ["https://rpc.coredao.org/", "https://rpc-core.icecreamswap.com", "https://core.drpc.org", "wss://core.drpc.org", "https://rpc.swiftnodes.io/rpc/core?key=${SWIFTNODES_API_KEY}"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -13898,7 +13914,7 @@
 }, {
   "name": "Sei Network",
   "chain": "Sei",
-  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
+  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com", "https://rpc.swiftnodes.io/rpc/sei?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sei",
@@ -23713,7 +23729,7 @@
 }, {
   "name": "Robinhood Chain",
   "chain": "ETH",
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.ordofi.network", "wss://rpc.ordofi.network", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/robinhood_mainnet/public", "https://robinhood.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://robinhood.drpc.org", "wss://robinhood.drpc.org", "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public", "https://api.blockvectra.com/v1/robinhood_mainnet/public", "https://robinhood.daybreak-rpc.network", "https://rpc.swiftnodes.io/rpc/robinhood?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -23736,6 +23752,10 @@
   }, {
     "name": "stonkscan",
     "url": "https://stonkscan.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/robinhood",
     "standard": "EIP3091"
   }],
   "status": "active",
@@ -24736,6 +24756,26 @@
   "networkId": 5290,
   "explorers": [],
   "status": "deprecated"
+}, {
+  "name": "SRC Chain",
+  "chain": "SRC",
+  "rpc": ["https://mainnet.srcecosystem.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SRC",
+    "symbol": "SRC",
+    "decimals": 18
+  },
+  "infoURL": "https://srcecosystem.com",
+  "shortName": "srcchain",
+  "chainId": 5291,
+  "networkId": 5291,
+  "icon": "src-chain",
+  "explorers": [{
+    "name": "SRC Chain Explorer",
+    "url": "https://explorer.srcecosystem.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Uzmi Network Mainnet",
   "chain": "UZMI",
@@ -29660,6 +29700,20 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "QVTX",
+  "chain": "QVTX",
+  "rpc": ["https://rpc.qvtxaeon.io/_rpc/8825", "https://rpc.quantvestrix.io/_rpc/8825"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.io",
+  "shortName": "qvtx",
+  "chainId": 8825,
+  "networkId": 8825
+}, {
   "name": "Hydra Chain Testnet",
   "chain": "HYDRA",
   "rpc": ["https://rpc-testnet.hydrachain.org"],
@@ -33249,6 +33303,25 @@
     }]
   }
 }, {
+  "name": "Riverbit Testnet",
+  "chain": "RBT",
+  "rpc": ["https://pre.riverbit.io/api/rpc?chainId=12589"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Riverbit token",
+    "symbol": "RBT",
+    "decimals": 18
+  },
+  "infoURL": "https://pre.riverbit.io/explorer",
+  "shortName": "riverbit-testnet",
+  "chainId": 12589,
+  "networkId": 12589,
+  "explorers": [{
+    "name": "Riverbit Testnet Explorer",
+    "url": "https://pre.riverbit.io/explorer",
+    "standard": "none"
+  }]
+}, {
   "name": "Rikeza Network Testnet",
   "title": "Rikeza Network Testnet",
   "chain": "Rikeza",
@@ -35654,6 +35727,20 @@
     "url": "https://molibra.org/molibra/moliscan",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "QVTX Aeon",
+  "chain": "QVTX",
+  "rpc": ["https://rpc.qvtxaeon.io/_rpc/20232", "https://rpc.quantvestrix.io/_rpc/20232"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.io",
+  "shortName": "qvtx2",
+  "chainId": 20232,
+  "networkId": 20232
 }, {
   "name": "CHEESE Blockchain Mainnet",
   "chain": "CHEESE",
@@ -39074,6 +39161,10 @@
     "url": "https://arbitrum.dex.guru",
     "icon": "dexguru",
     "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/arb",
+    "standard": "EIP3091"
   }],
   "infoURL": "https://arbitrum.io",
   "parent": {
@@ -39483,6 +39574,10 @@
   }, {
     "name": "Avascan",
     "url": "https://avascan.info",
+    "standard": "EIP3091"
+  }, {
+    "name": "Codex Scan",
+    "url": "https://scan.codex.io/avax",
     "standard": "EIP3091"
   }]
 }, {
@@ -43710,6 +43805,7 @@
 }, {
   "name": "ZETAPHY Testnet",
   "chain": "ZETAPHY",
+  "icon": "zetaphy",
   "rpc": ["https://rpc.sawasdeecoin.com"],
   "faucets": ["https://app.sawasdeecoin.com/?tab=earn"],
   "nativeCurrency": {
@@ -44896,6 +44992,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "PSYROB Testnet",
+  "chain": "PSYROB",
+  "rpc": ["https://rpc.psyrob.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "PSY",
+    "symbol": "PSY",
+    "decimals": 18
+  },
+  "infoURL": "https://psyrob.com",
+  "shortName": "psyrob",
+  "chainId": 87870,
+  "networkId": 87870,
+  "status": "incubating",
+  "explorers": [{
+    "name": "PSYROB Explorer",
+    "url": "https://explorer.psyrob.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Nautilus Proteus Testnet",
   "chain": "ETH",
   "icon": "nautilus",
@@ -45799,7 +45915,7 @@
   "chain": "Mantis",
   "icon": "mantis",
   "rpc": ["https://mantis-rpc.switch.ch", "https://mantis-rpc.phoenix-systems.io"],
-  "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.kore-technologies.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
+  "faucets": ["https://mantis.switch.ch/faucet", "https://mantis.phoenix-systems.io/faucet", "https://mantis.block-spirit.ch/faucet"],
   "nativeCurrency": {
     "name": "Mantis",
     "symbol": "MANTIS",
@@ -46316,6 +46432,31 @@
   }],
   "status": "active"
 }, {
+  "name": "Kinetiq Elysium Testnet",
+  "chain": "Elysium Testnet",
+  "rpc": ["https://testnet-rpc.elysium.kinetiq.xyz"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HYPE",
+    "symbol": "HYPE",
+    "decimals": 18
+  },
+  "infoURL": "https://elysium.kinetiq.xyz",
+  "shortName": "elysium-testnet",
+  "chainId": 99801,
+  "networkId": 99801,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Elysium Testnet Explorer",
+    "url": "https://testnet.elysium.kinetiq.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Edge Matrix Chain Testnet",
   "chain": "EMC Testnet",
   "icon": "emctest",
@@ -46353,6 +46494,31 @@
   "explorers": [{
     "name": "blockscout",
     "url": "https://sepolia.emcscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Elysium",
+  "chain": "Elysium",
+  "rpc": ["https://rpc.elysium.kinetiq.xyz"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HYPE",
+    "symbol": "HYPE",
+    "decimals": 18
+  },
+  "infoURL": "https://elysium.kinetiq.xyz",
+  "shortName": "elysium",
+  "chainId": 99901,
+  "networkId": 99901,
+  "icon": "elysium-kinetiq",
+  "explorers": [{
+    "name": "Elysium Explorer",
+    "url": "https://elysium.kinetiq.xyz",
     "standard": "EIP3091"
   }]
 }, {
@@ -51389,6 +51555,20 @@
     "url": "https://explorer.infinaeon.com",
     "standard": "none"
   }]
+}, {
+  "name": "QVTX ByteID Anchor",
+  "chain": "QVTX",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "QVTX",
+    "symbol": "QVTX",
+    "decimals": 18
+  },
+  "infoURL": "https://quantvestrix.com",
+  "shortName": "qvtxa",
+  "chainId": 420018,
+  "networkId": 420018
 }, {
   "name": "Vector Smart Chain",
   "chain": "VSC",
@@ -60297,7 +60477,7 @@
 }, {
   "name": "Aurora Mainnet",
   "chain": "NEAR",
-  "rpc": ["https://mainnet.aurora.dev", "https://aurora.drpc.org", "wss://aurora.drpc.org"],
+  "rpc": ["https://mainnet.aurora.dev", "https://aurora.drpc.org", "wss://aurora.drpc.org", "https://rpc.swiftnodes.io/rpc/aurora?key=${SWIFTNODES_API_KEY}"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -61825,7 +62005,7 @@
 }, {
   "name": "Haradev Testnet",
   "chain": "Ntity",
-  "rpc": ["https://blockchain.haradev.com"],
+  "rpc": ["https://rpc.haradev.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ntity Haradev",
